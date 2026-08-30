@@ -1,0 +1,17 @@
+# Core Deep Learning Framework
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Hugging Face Ecosystem & Quantization
+transformers>=4.45.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+sentencepiece>=0.2.0
+
+# Video Processing & Computer Vision
+av>=11.0.0
+pillow>=10.2.0
+numpy>=1.26.0
+
+# Web UI Framework
+gradio>=4.20.0
