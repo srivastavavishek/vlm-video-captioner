@@ -2,10 +2,12 @@ import shutil
 from pathlib import Path
 import gradio as gr
 
-from chunker import VideoChunker
-from vlm_captioner import VLMCaptioner
-from translator import NLLBTranslator
-from subtitle_generator import SubtitleGenerator
+from utils.video_chunker import VideoChunker
+from models.vlm_captioner import VLMCaptioner
+from models.nllb_translator import NLLBTranslator
+from utils.subtitle_generator import SubtitleGenerator
+from utils.language_codes import LANGUAGE_CONFIG
+from utils.propmt import prompt
 
 
 def process_video_pipeline(video_input: str, language_input: str):
