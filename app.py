@@ -7,7 +7,7 @@ from models.vlm_captioner import VLMCaptioner
 from models.nllb_translator import NLLBTranslator
 from utils.subtitle_generator import SubtitleGenerator
 from utils.language_codes import LANGUAGE_CONFIG
-from utils.propmt import prompt
+from utils.prompt import prompt
 
 
 def process_video_pipeline(video_input: str, language_input: str):
